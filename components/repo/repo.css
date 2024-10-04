@@ -1,0 +1,7 @@
+.repo {
+  height: 101px;
+  background-color: #E27BEB;
+  border: 1px solid black;
+  display: flex;
+  position: relative;
+}

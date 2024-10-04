@@ -1,0 +1,32 @@
+.repo__delete {
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  position: relative;
+  margin: auto 34px auto auto;
+  box-sizing: content-box;
+}
+
+.repo__delete:before,
+.repo__delete:after {
+  content: "";
+  position: absolute;
+  top: 19px;
+  right: -6px;
+  width: 54px;
+  height: 4px;
+  background: red;
+}
+
+.repo__delete:before {
+  transform: rotate(45deg);
+}
+
+.repo__delete:after {
+  transform: rotate(-45deg);
+}
+
+.repo__delete:hover {
+  margin-right: 32px;
+  border: 2px solid red;
+}

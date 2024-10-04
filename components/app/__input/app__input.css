@@ -1,0 +1,10 @@
+.app__input {
+  font-family: 'Roboto Regular';
+  width: 100%;
+  font-size: 48px;
+  line-height: 56.25px;
+  height: 61px;
+  box-sizing: border-box;
+  padding: 5px 13px;
+  border: none;
+}

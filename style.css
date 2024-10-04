@@ -1,0 +1,18 @@
+@import url(./vendor/fonts/roboto.css);
+
+@import url(./components/app/app.css);
+@import url(./components/app/__autocomplit/app__autocomplit.css);
+@import url(./components/app/__container/app__container.css);
+@import url(./components/app/__result/app__result.css);
+@import url(./components/app/__search-element/app__search-element.css);
+@import url(./components/app/__input/app__input.css);
+
+@import url(./components/repo/repo.css);
+@import url(./components/repo/__delete/repo__delete.css);
+@import url(./components/repo/__info/repo__info.css);
+@import url(./components/repo/__text/repo__text.css);
+
+body {
+  background-color: #C4C4C4;
+  display: flex;
+}
